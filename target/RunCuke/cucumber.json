@@ -1,0 +1,323 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8488139100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify that logo displayed on home page",
+        "description": "",
+        "id": "orange-hrm;verify-that-logo-displayed-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 954656300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 434699500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137841000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3272780900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148017100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can see logo",
+            "match": {
+              "location": "LoginSteps.iCanSeeLogo()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM",
+    "description": "",
+    "id": "orange-hrm",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is om homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4656285300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "admin should add user successfully",
+        "description": "",
+        "id": "orange-hrm;admin-should-add-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1159044400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 148218500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123300900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2926028200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976316900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on admin tab",
+            "match": {
+              "location": "UserStep.iClickOnAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on add button",
+            "match": {
+              "location": "UserStep.iClickOnAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9964700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select user role \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                }
+              ],
+              "location": "UserStep.iSelectUserRole(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20110260300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027systemUser_employeeName_empName\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027HEMAL\u0027, ip: \u0027192.168.0.41\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d2c723a60933af508b6147a6a6077ba3, findElement {using\u003dxpath, value\u003d//input[@id\u003d\u0027systemUser_employeeName_empName\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\HEMALP~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61744/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d2c723a60933af508b6147a6a6077ba3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy21.sendKeys(Unknown Source)\r\n\tat com.orangehrm.utility.Utility.sendTextToElement(Utility.java:89)\r\n\tat com.orangehrm.pages.AddUserPage.setEmpName(AddUserPage.java:72)\r\n\tat com.orangehrm.cucumber.steps.UserStep.iEnterEmployeeName(UserStep.java:27)\r\n\tat ✽.And I enter employee name \"Karan Patel\"(user.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I enter employee name \"Karan Patel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Karan Patel",
+                  "offset": 23
+                }
+              ],
+              "location": "UserStep.iEnterEmployeeName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter my username",
+            "match": {
+              "location": "UserStep.iEnterMyUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I select status \"Disabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Disabled",
+                  "offset": 17
+                }
+              ],
+              "location": "UserStep.iSelectStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I set password \"prime@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime@123",
+                  "offset": 16
+                }
+              ],
+              "location": "UserStep.iSetPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I set confirm password \"prime@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime@123",
+                  "offset": 24
+                }
+              ],
+              "location": "UserStep.iSetConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on save button",
+            "match": {
+              "location": "UserStep.iClickOnSaveButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM",
+    "description": "As a user i can operate orange hrm website",
+    "id": "orange-hrm",
+    "keyword": "Feature",
+    "uri": "user.feature"
+  }
+]

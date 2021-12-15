@@ -1,0 +1,10 @@
+2021-12-14 16:12:688 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-14 16:12:291 INFO  LoginPage :51 - entering user name : [[ChromeDriver: chrome on WINDOWS (91697ea2b61546bf67c72788998a3b07)] -> xpath: //input[@id='txtUsername']]
+2021-12-14 16:12:447 INFO  LoginPage :56 - entering password : [[ChromeDriver: chrome on WINDOWS (91697ea2b61546bf67c72788998a3b07)] -> xpath: //input[@id='txtPassword']]
+2021-12-14 16:12:723 INFO  LoginPage :61 - clicking on  : [[ChromeDriver: chrome on WINDOWS (91697ea2b61546bf67c72788998a3b07)] -> xpath: //input[@id='btnLogin']]
+2021-12-14 16:12:877 INFO  LoginPage :74 - verify logo : [[ChromeDriver: chrome on WINDOWS (91697ea2b61546bf67c72788998a3b07)] -> xpath: //img[@alt='OrangeHRM']]
+2021-12-14 16:12:943 INFO  ManageDriver :32 - Launching chrome browser
+2021-12-14 16:12:667 INFO  LoginPage :51 - entering user name : [[ChromeDriver: chrome on WINDOWS (d2c723a60933af508b6147a6a6077ba3)] -> xpath: //input[@id='txtUsername']]
+2021-12-14 16:12:793 INFO  LoginPage :56 - entering password : [[ChromeDriver: chrome on WINDOWS (d2c723a60933af508b6147a6a6077ba3)] -> xpath: //input[@id='txtPassword']]
+2021-12-14 16:12:726 INFO  LoginPage :61 - clicking on  : [[ChromeDriver: chrome on WINDOWS (d2c723a60933af508b6147a6a6077ba3)] -> xpath: //input[@id='btnLogin']]
+2021-12-14 16:12:705 INFO  HomePage :44 - clicking on : [[ChromeDriver: chrome on WINDOWS (d2c723a60933af508b6147a6a6077ba3)] -> xpath: //b[contains(text(),'Admin')]]
